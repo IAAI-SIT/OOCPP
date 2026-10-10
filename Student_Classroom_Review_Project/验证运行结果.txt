@@ -1,0 +1,81 @@
+## v1
+exit=0
+Tom  90
+
+
+## v2
+exit=0
+Student() -> Unknown
+Student(name, score) -> Tom
+Tom  95
+Student(name, score) -> Alice
+Alice  88
+
+
+## v3
+exit=0
+Student(name, score) -> Tom
+Student(name, score) -> Alice
+Student(name, score) -> Bob
+--- object array ---
+Tom  90
+Alice  95
+Bob  82
+--- pointer/reference modified ---
+Tom  98
+Alice  96
+
+
+## v4
+exit=0
+  Student(name, score): Tom
+  Student(name, score): Alice
+  Student()
+  Student()
+  Student()
+Classroom(): capacity=3
+--- classroom ---
+Tom  98
+Alice  95
+--- leaving main: observe destruction order ---
+~Classroom(): delete[] students
+  ~Student(): <empty>
+  ~Student(): Alice
+  ~Student(): Tom
+  ~Student(): Alice
+  ~Student(): Tom
+
+
+## v5
+exit=0
+c1 students address: 0x5580583ee2d8
+c2 students address: 0x5580583ee2d8
+--- c1 after modifying c2 ---
+Tom  100
+
+课堂问题：如果两个对象析构时都 delete[] students，会发生什么？
+答案：同一块内存被释放两次，可能导致 double free。
+
+
+## v6
+exit=0
+--- c1 ---
+Tom  98
+Alice  95
+
+--- after modifying c2 ---
+c1:
+Tom  98
+Alice  95
+c2:
+Tom  100
+Alice  95
+
+=== Classroom Report ===
+enrolled: 2/3
+     Tom  98
+   Alice  95
+
+Student object count now = 11
+注意：动态 Student 数组中的空槽也是实际 Student 对象。
+

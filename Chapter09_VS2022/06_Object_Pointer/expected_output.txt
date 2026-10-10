@@ -1,0 +1,5 @@
+Tom: 90
+Tom: 90
+Tom: 90
+object address = 0x7fff389714a0
+pointer value  = 0x7fff389714a0

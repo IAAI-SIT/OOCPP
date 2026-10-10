@@ -1,0 +1,6 @@
+Tom: 90
+Alice: 95
+Bob: 82
+destruct Bob
+destruct Alice
+destruct Tom

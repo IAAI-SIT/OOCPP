@@ -1,0 +1,6 @@
+default constructor
+parameterized constructor: Tom
+parameterized constructor: Alice
+unknown: 0
+Tom: 90
+Alice: 95

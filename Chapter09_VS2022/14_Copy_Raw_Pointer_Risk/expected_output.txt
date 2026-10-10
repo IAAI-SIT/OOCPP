@@ -1,0 +1,3 @@
+This example demonstrates the risk only.
+Do not copy Buffer with the compiler-generated copy constructor.
+A shallow copy would make two objects own the same address.

@@ -1,0 +1,13 @@
+count = 0
+construct Tom
+construct Alice
+construct Bob
+Alice: 95
+copy construct Bob
+Bob: 82
+friend score = 82
+count = 4
+destruct Bob
+destruct Bob
+destruct Alice
+destruct Tom

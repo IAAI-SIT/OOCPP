@@ -1,0 +1,7 @@
+-- assignment --
+Tom: 90
+-- copy construction --
+copy constructor
+copy constructor
+Tom: 90
+Tom: 90

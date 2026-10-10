@@ -1,0 +1,6 @@
+construct Tom
+Tom: 90
+destruct Tom
+construct Alice
+Alice: 95
+destruct Alice

@@ -1,0 +1,12 @@
+-- local objects --
+construct A
+construct B
+main body
+-- static local object --
+construct static
+f()
+f()
+-- end main --
+destruct B
+destruct A
+destruct static
