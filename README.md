@@ -17,6 +17,7 @@
 | Chapter10_VS2022 | 第10章：运算符重载 |
 | Chapter11_VS2022 | 第11章：继承与派生 |
 | Chapter12_Polymorphism | 第12章：多态性与虚函数 |
+| Chapter13_IO_Streams | 第13章：C++输入输出流 |
 | Student_Classroom_Review_Project | 类与对象课堂综合复习项目 |
 
 各章节代码相对独立，便于同学们按教学进度学习和实践。
