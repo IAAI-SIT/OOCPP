@@ -1,0 +1,2 @@
+Hello, C++ file stream!
+Tom 90, Alice 95.

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><ItemGroup><Filter Include="Source Files"><UniqueIdentifier>{B9134982-0774-587F-8710-1589389EEFDD}</UniqueIdentifier><Extensions>cpp;c;cc;cxx;c++;cppm;ixx</Extensions></Filter></ItemGroup><ItemGroup><ClCompile Include="main.cpp"><Filter>Source Files</Filter></ClCompile></ItemGroup></Project>
