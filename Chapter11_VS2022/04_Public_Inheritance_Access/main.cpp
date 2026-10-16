@@ -5,13 +5,20 @@ using namespace std;
 class Student
 {
 public:
-    void study() const { cout << "study" << endl; }
+    Student()
+    {
+        password = "secret";
+    }
+    void study() const 
+    { 
+        cout << "study" << endl; 
+    }
 
 protected:
     int score{};
 
 private:
-    string password = "secret";
+    string password;
 };
 
 class Graduate : public Student

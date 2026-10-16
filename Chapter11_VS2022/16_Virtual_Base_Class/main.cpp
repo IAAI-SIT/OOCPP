@@ -43,6 +43,7 @@ public:
 int main()
 {
     Graduate g("Wang Li");
+    // cout << &(g.Student::name) << " " << &(g.Teacher::name) << endl;
     cout << "name = " << g.name << endl;  // 只有一份Person::name
     return 0;
 }

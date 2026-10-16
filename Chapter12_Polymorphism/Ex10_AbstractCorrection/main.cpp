@@ -1,24 +1,41 @@
-﻿// 第12章：AI任务5：修复签名不匹配
-// 对应PPT页码：43（2026-10-02版，共56页）
-// 每个项目独立运行；预期输出见 expected_output.txt。
+﻿// 第12章：纯虚函数
 #include <iostream>
 using namespace std;
 
-class Shape {
+class Shape
+{
 public:
     virtual double area() const = 0;
-    virtual ~Shape() {}
+
+    virtual ~Shape()
+    {
+    }
 };
-class Circle : public Shape {
+
+class Circle : public Shape
+{
+private:
     double radius;
+
 public:
-    Circle(double r) : radius(r) {}
-    // 只有声明不够：运行示例还要提供函数体。
-    double area() const override { return 3.14159 * radius * radius; }
+    Circle(double r)
+        : radius(r)
+    {
+    }
+
+    // 派生类必须实现纯虚函数，Circle 才能创建对象。
+    double area() const override
+    {
+        return 3.14159 * radius * radius;
+    }
 };
-int main() {
+
+int main()
+{
     Circle c(2.0);
+
     Shape& s = c;
     cout << s.area() << endl;
+
     return 0;
 }

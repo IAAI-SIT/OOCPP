@@ -9,8 +9,7 @@ public:
     {
     }
 
-    friend ostream& operator<<(ostream& out,
-                               const Complex& c);
+    friend ostream& operator<<(ostream& out, const Complex& c);
 
 private:
     double real;

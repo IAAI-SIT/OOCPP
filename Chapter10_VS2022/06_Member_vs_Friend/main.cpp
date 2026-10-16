@@ -17,8 +17,7 @@ public:
     }
 
     // 非成员友元函数：两个操作数都显式写出。
-    friend Complex operator-(const Complex& a,
-                             const Complex& b);
+    friend Complex operator-(const Complex& a,const Complex& b);
 
     void display() const
     {

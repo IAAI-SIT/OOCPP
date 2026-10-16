@@ -6,7 +6,7 @@ class Student
 {
 public:
     string name;
-    int score{};
+    int score;
 
     void showStudent() const
     {

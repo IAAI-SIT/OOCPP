@@ -1,0 +1,6 @@
+V0_Base_Derived: PASS (g++ -std=c++17 -Wall -Wextra -pedantic)
+V1_Access_Control: PASS (g++ -std=c++17 -Wall -Wextra -pedantic)
+V2_Constructor_Destructor: PASS (g++ -std=c++17 -Wall -Wextra -pedantic)
+V3_Multilevel_Inheritance: PASS (g++ -std=c++17 -Wall -Wextra -pedantic)
+V4_Multiple_Inheritance: PASS (g++ -std=c++17 -Wall -Wextra -pedantic)
+V5_Integrated_Review: PASS (g++ -std=c++17 -Wall -Wextra -pedantic)
