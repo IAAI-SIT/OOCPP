@@ -1,0 +1,7 @@
+V0_Baseline: PASS
+V1_BinaryOperators: PASS
+V2_CompareOperators: PASS
+V3_MemberVsNonMember: PASS
+V4_IncrementOperators: PASS
+V5_StreamOperators: PASS
+V6_Integrated: PASS
