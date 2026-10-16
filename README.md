@@ -20,6 +20,7 @@
 | Chapter11_VS2022 | 第11章：继承与派生 |
 | Chapter12_Polymorphism | 第12章：多态性与虚函数 |
 | Chapter13_IO_Streams | 第13章：C++输入输出流 |
+| Chapter14_Chapter14_Namespace | 第14章：C++工具——命名空间 |
 
 各章节代码相对独立，便于同学们按教学进度学习和实践。
 
