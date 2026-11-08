@@ -22,11 +22,11 @@
 | Chapter12_Polymorphism | 第12章：多态性与虚函数 |
 | Chapter12_Polymorphism_Review_Project | 第12章多态性与虚函数综合复习项目 |
 | Chapter13_IO_Streams | 第13章：C++输入输出流 |
-| Chapter14_Chapter14_Namespace | 第14章：C++工具——命名空间 |
+| Chapter14_Namespace | 第14章：C++工具——命名空间 |
 
 各章节教学代码相对独立；综合复习项目按照 V0、V1、V2……逐步推进，建议结合课堂 PPT 按顺序运行和验证。
 
-后续章节及相关教学示例将陆续补充。
+相关教学示例和综合复习项目将根据课程教学需要持续补充和更新。
 
 ## 三、开发环境
 
