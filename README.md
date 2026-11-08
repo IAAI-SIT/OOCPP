@@ -1,6 +1,6 @@
 # 面向对象程序设计（C++）课程教学代码
 
-本仓库用于共享《面向对象程序设计》课程的课堂教学示例代码，帮助同学们复习课堂知识、理解面向对象程序设计思想，并通过实际编程加深对 C++ 的掌握。
+本仓库用于共享《面向对象程序设计》课程的课堂教学示例代码和综合复习项目，帮助同学们复习课堂知识、理解面向对象程序设计思想，并通过实际编程加深对 C++ 的掌握。
 
 代码将随课程教学进度持续更新。
 
@@ -18,18 +18,20 @@
 | Chapter10_VS2022 | 第10章：运算符重载 |
 | Chapter10_Operator_Overloading_Review_Project | 第10章运算符重载综合复习项目 |
 | Chapter11_VS2022 | 第11章：继承与派生 |
+| Chapter11_Inheritance_Review_Project | 第11章继承与派生综合复习项目 |
 | Chapter12_Polymorphism | 第12章：多态性与虚函数 |
+| Chapter12_Polymorphism_Review_Project | 第12章多态性与虚函数综合复习项目 |
 | Chapter13_IO_Streams | 第13章：C++输入输出流 |
 | Chapter14_Chapter14_Namespace | 第14章：C++工具——命名空间 |
 
-各章节代码相对独立，便于同学们按教学进度学习和实践。
+各章节教学代码相对独立；综合复习项目按照 V0、V1、V2……逐步推进，建议结合课堂 PPT 按顺序运行和验证。
 
 后续章节及相关教学示例将陆续补充。
 
 ## 三、开发环境
 
 - 编程语言：C++
-- 开发工具：Microsoft Visual Studio 2026
+- 开发工具：Microsoft Visual Studio 2022 或更新版本
 - 操作系统：Windows
 - 建议安装 Visual Studio 的“使用 C++ 的桌面开发”工作负载
 
